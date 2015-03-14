@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "ClassSche.py", line 207, in <module>
+    app.MainLoop()
+  File "ClassSche.py", line 200, in Test
+    
+  File "ClassSche.py", line 94, in __init__
+    self.SetIcon(wx.Icon('..\\var\\sys_logo\\ClassSche.ico', wx.BITMAP_TYPE_ICO))
+  File "ClassSche.py", line 64, in makeGrid1
+    colour = wx.Colour(r, g, b)
+  File "wx\_gdi.pyc", line 127, in __init__
+ValueError: in method 'new_Colour', expected argument 2 of type 'byte'
+Traceback (most recent call last):
+  File "ClassSche.py", line 207, in <module>
+    app.MainLoop()
+  File "ClassSche.py", line 200, in Test
+    
+  File "ClassSche.py", line 94, in __init__
+    self.SetIcon(wx.Icon('..\\var\\sys_logo\\ClassSche.ico', wx.BITMAP_TYPE_ICO))
+  File "ClassSche.py", line 64, in makeGrid1
+    colour = wx.Colour(r, g, b)
+  File "wx\_gdi.pyc", line 127, in __init__
+ValueError: in method 'new_Colour', expected argument 2 of type 'byte'
